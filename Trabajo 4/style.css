@@ -1,0 +1,49 @@
+#sidebar{
+    width: 200px;
+    height: 1000px;
+    border: 2px rgba(46, 111, 165, 0.786) solid;
+    background-color: rgb(46, 112, 165);
+    display: block;
+
+
+}
+
+#sidebar > figure > img{
+    width: 100%;
+    border: 2px rgba(46, 111, 165, 0.786) solid;
+    border-radius: 5rem;
+    margin-top: 2rem;
+    margin-bottom: 5rem;
+}
+
+#links > a{
+    color: #2b2b2b;
+    text-decoration-line: none;
+    justify-content: left;
+    margin-left: 3rem;
+    margin-bottom: 2rem;
+    margin-top: 2rem;
+    display: flex;
+    flex: 1;
+}
+
+
+#links>a:hover{
+    color: #f48332; /* He cambiado el color porque no se veía bien con el fondo */
+    transition: 0.3s;
+}
+
+#avatar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 29rem;
+}
+
+#avatar > img{
+    display: flex;
+    width: 2.5rem;
+    border: 2px solid rgb(38, 92, 136);
+    border-radius: 100%;
+    margin-right: 1rem;
+}
